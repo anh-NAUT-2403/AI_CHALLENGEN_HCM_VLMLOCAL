@@ -6,7 +6,7 @@ Pipeline tìm kiếm và xác minh khoảnh khắc trong video cho AIC, hỗ tr�
 - **QA**: tìm bằng chứng hình ảnh và trả lời câu hỏi.
 - **TRAKE**: tìm chuỗi sự kiện theo đúng thứ tự thời gian.
 
-Hệ thống phân tích truy vấn bằng LLM, truy hồi bằng CLIP + FAISS, kết hợp metadata object và cụm thời gian, sau đó dùng Qwen3-VL để xác minh trước khi tạo file nộp.
+Hệ thống phân tích truy vấn bằng LLM, truy hồi bằng CLIP + FAISS, kết hợp metadata object và cụm thời gian, sau đó dùng Qwen3-VL để xác minh trước khi tạo file nộp. SỬ DỤNG VLM LÀ QWEN 8B ĐỂ TRỰC TIẾP XEM VIDEO. ƯU ĐIỂM TIẾT KIỆM CHI PHÍ, TƯƠNG ĐỐI CHÍNH XÁC NHƯNG CŨNG CẦN CẢI THIỆN THÊM VÌ MODEL 8B CÓ GIỚI HẠN NÊN PHẦN RETRIEVAL PHẢI LÀM TỐT HƠN. NHƯỢC ĐIỂM LÀ LÂU, VLM YẾU SO VỚI API CỦA GPT HAY GEMINI, YÊU CẦU VRAM CAO (GG COLAB PRO A100) ĐỂ CHẠY ỔN ĐỊNH.
 
 ## Cấu trúc
 
